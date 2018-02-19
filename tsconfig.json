@@ -1,0 +1,24 @@
+{
+  "include":[
+    "server/**/*.ts",
+    "server/*.ts"
+  ],
+  "exclude":[
+    "node_modules"
+  ],
+
+  "compilerOptions":{
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "build",
+    "typeRoots": [
+      "../node_modules/@types"
+    ],
+    "types": [
+      "node"
+    ],
+    "compileOnSave": true
+
+  },
+  "buildOnSave": true
+}
